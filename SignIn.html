@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In / Register</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+<body id="body">
+    <div class="topnav">
+        <a href="Home.html">Home</a> |
+        <a href="AboutUs.html">About Us</a> |
+        <a href="ContactUs.html">Contact Us</a> |
+        <a href="Games.html">Games</a> |
+        <a href="carousel.html">Carousel</a> |
+        <a href="SignIn.html">Sign In / Register</a>
+    </div>
+    
+    <br>
+
+    <div class="maincontent">
+        <h1>Join Us Now</h1>
+
+        <br>
+
+        <label for="Value">First Name:</label>
+        <input type="text" name="fName" class="txtbox">
+
+        <br>
+
+        <label for="Value">Surname:</label>
+        <input type="text" name="surname" class="txtbox">
+
+        <br>
+
+        <label for="Value">Email address:</label>
+        <input type="text" name="email" class="txtbox">
+
+        <br>
+
+        <label for="Value">Password:</label>
+        <input type="text" name="password" class="txtbox">
+
+        <br>
+
+        <a href="">
+             <button type="submit" class="Button" value="Login" href="./Home.html" onclick="displayAlert()">Submit</button>
+        <script>
+            function displayAlert() {
+            alert('You are logged in');
+            }
+        </script>
+        </a>
+    </div>
+</body>
+</html>

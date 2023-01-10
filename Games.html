@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="Css.css">
+    <script>
+
+    </script>
+</head>
+<body id="body">
+    <body id="body">
+        <div class="topnav">
+            <a href="Home.html">Home</a> |
+            <a href="AboutUs.html">About Us</a> |
+            <a href="ContactUs.html">Contact Us</a> |
+            <a href="Games.html">Games</a> |
+            <a href="carousel.html">Carousel</a> |
+            <a href="SignIn.html">Sign In / Register</a>
+        </div>
+
+    <br>
+    
+    <div class="row">
+        <div class="column">
+            <img id="Gates" src="./images/Gates of Olympus.jpg" alt="Gates of Olympus" style="width:80%; height: 80%;"></a>
+        </div>
+        <div class="column">
+            <img id="Gorilla" src="./images/Gorilla-Mayhem_339x180.png" alt="Gorilla-Mayham"style="width:90%; height:80%;"></a>
+        </div>
+        <div class="column">
+            <img id="Sweet" src="./images/sweet-bonanza-slot.jpg" alt="Sweet Bonanza"style="width:90%"></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img id="Roulette" src="./images/roulette.png" alt="Roulette" style="width:80%; height: 80%;"></a>
+        </div>
+        <div class="column">
+            <img id="Blackjack" src="./images/blackjack.jpg" alt="Blackjack" style="width:90%; height:90%;"></a>
+        </div>
+        <div class="column">
+            <img id="Casino" src="./images/casino.jpg" alt="Casino" style="width:90%"></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img id="Slot" src="./images/Slot.jpg.png" alt="Slot Machine Games" style="width:80%; height: 80%;"></a>
+        </div>
+        <div class="column">
+            <img id="Sugar" src="./images/Sugar Rush.png" alt="Sugar Rush" style="width:90%; height:80%;"></a>
+        </div>
+        <div class="column">
+            <img id="Poker" src="./images/poker.jpeg" alt="Poker" style="width:90%"></a>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+        <script>
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Gates");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+        
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Gorilla");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+       
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Sweet");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+        
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Roulette");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+        
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Blackjack");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+        
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Casino");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+        
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Slot");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+        
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Sugar");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+        
+            var modal = document.getElementById("myModal");
+            
+            var img = document.getElementById("Poker");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+            
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+        </script>
+      
+</body>
+</html>
